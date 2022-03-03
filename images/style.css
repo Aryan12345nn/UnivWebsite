@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+     min-height: 100vh;
+     width:100%;
+    background-image: linear-gradient(rgba(115, 123, 156, 0.7),rgba(115, 123, 156, 0.7)),url(images/banner.jpg);
+
+     background-position: center;
+     background-size: cover;
+     position: relative;
+}
+
+nav{
+     display: flex;
+     padding: 1% 1%;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+nav img{
+        width: 350px;
+  }
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li{
+    color: rgb(128, 92, 92);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+/*----middle title----*/
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 62px;
+}
+
+.text-box p{
+    margin: 5px 0 20px;
+    font-size: 30px;
+    color: rgb(13, 13, 14);
+}
+
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(20, 15, 15);
+    border: 2px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.text-box a{
+    color: black;
+    font-size: 40px;
+}
+
+
+/*---lower section---*/
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: rgb(19, 13, 13);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    padding: 10px;
+}
+
+
+/*----lower row section---*/
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*--table--*/
+.course-col{
+    flex-basis: 31%;
+    background: #8be0f5;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+/*--campus--*/
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.campus-col{
+    flex-basis: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.campus-col img{
+    width: 100%;
+}
+
+
+/*---Enroll---*/
+.bottom{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.bottom h1{
+    color: rgb(24, 159, 221);
+}
+.bottom p{
+    color: rgb(169, 120, 233);
+    margin-top: 5%;
+    font-size: 25px;
+    
+}
+
+.bottom a{
+    color: rgb(118, 162, 212);
+    font-size: 40px;
+    margin-top: 5%;
+}
+
+
+
+
+
+
+
